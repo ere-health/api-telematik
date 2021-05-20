@@ -65,5 +65,15 @@
         </executions>
       </plugin>
     </plugins>
+    <resources>
+	<!-- Bundle the wsdl files as part of the jar -->
+        <resource>
+            <directory>conn</directory>
+            <includes>
+                <include>**/*.wsdl</include>
+                <include>**/*.xsd</include>
+            </includes>
+        </resource>
+    </resources>
   </build>
 </project>
