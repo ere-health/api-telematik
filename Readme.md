@@ -1,4 +1,4 @@
- Schnittstellendefinitionen im XSD- und WSDL-Format für alle im Release definierten Produkttypversionen
+Schnittstellendefinitionen im XSD- und WSDL-Format für alle im Release definierten Produkttypversionen
 
  # Struktur
 
@@ -21,7 +21,6 @@
 |fd\                |__Fachdienste__
 |fd\phr\            |ePA
 |fd\phr\appc\       |Referenz-Policies
-|fdv\               |ePA
 |ksr\               |__Konfigurationsdienst__
 |stoerungsampel\    |__Störungsampel__
 |tel\               |__Architektur und übergreifende Dokumente__

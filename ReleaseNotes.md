@@ -1,3 +1,45 @@
+# Release 4.0.3
+- VPN_ZugD: Reverted ProvisioningService namespace to 1.1 (C_10724)
+ - Konnektor (ePA): Removed PHRService 1.4.0. File names adapted to service version 2.0.1 (C_10725)
+ - Konnektor (ePA): Removed files PHRService_V2_0.wsdl/xsd (C_10725)
+ - Konnektor (Operating Data): Update SiteType value range, UpdateMode optional (C_10701)
+
+
+# Release 4.0.3-Pre1
+- ePA 2.0.4: C_10766 - removed GetRecordProviderList from AuthorizationService
+ - ePA 2.0.4: add version v1.3 in Version History (PHR_Common.xsd)
+ - ePA 2.0.4: remove pattern from DisplayName of DeviceIdType (PHR_Common.xsd)
+ - ePA 2.0.4: add include schemaLocation="../../ext/IHE/RMD.xsd" in DocumentManagementService.wsdl
+
+
+# Release 4.0.2-7
+- ePA: bugfix binding "mixed style" (DocumentManagementService.wsdl)
+
+
+# Release 4.0.2-6
+- epa: fixed wrong type of OkDate to dateTime in finishKeyChangeResponse (AccountManagementService.xsd)
+ - epa: removed wrong parameter RecordIdentifier and DeviceID from GetAuditEvents (AccountManagementService.xsd)
+ - epa: removed wrong parameter RecordIdentifier and DeviceID from GetAuditEvents (AccountManagementService.xsd)
+ - epa: fixed wrong parameters in ResumeAccountRequest (AuthorizationService.xsd)
+ - epa: fixed cardinality of ActorID in GetNotificationInfo to 0..1 (AuthorizationService.xsd)
+ - epa: fixed cardinality of NotificationInfoListEntry in GetNotificationInfoResponse to unbound (AuthorizationService.xsd)
+ - epa: added RestrictedUpdateDocumentSet to I_Document_Management (DocumentManagementService.wsdl)
+ - epa: bugfix Actions in DeleteDocumentSet (DocumentManagementService.wsdl)
+
+
+# Release 4.0.2-5
+- ePA: removed testtreiber_fdv (now in epa/src)
+ - ePA: Added comments to new RecordStateType elements
+ - ePA: removed namespace vsd: in PHR_Commons
+ - ePA: Parameter restriction for GetAuditEvents
+ - ePA: Changes according to ePA-Maintenance P21.1
+
+
+# Release 4.0.2-4
+- VZD: Header 'Accept: application/json' added to delete_Directory_Entry.
+ - VSDM: Correction of namespace for schema vsd pkv
+
+
 # Release 4.0.2-3
 - Konnektor: Context added to GetSignatureMode request. CardHandle, Context removed from GetSignatureModeResponse (C_10555)
 - Konnektor: Minus character escaped in pattern attribute Shorttext (C_10614)
