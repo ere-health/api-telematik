@@ -1,3 +1,44 @@
+# Release 4.0.5-Pre
+- epa: new (additional) version 2.0.1 for PHRManagementService (C-10933) 
+
+  
+- epa: new operation GetAuthorizationState in PHRManagementService_2.0.1 (C-10933) 
+
+  
+- epa: new upper limit for DocumentCategoryElement cardinality (PHRManagementService_2.0.1)(C-10836) 
+
+
+# Release 4.0.4-1
+- Structure: File OperatingData_vpnzugd_hardened.xsd added to directory vpnzugd
+
+ 
+
+# Release 4.0.4-0
+- Structure: removals from content of the directory /phr corrected
+
+
+# Release 4.0.4
+- VPNZugD: data type of user data specified (C_10805 in ProvisioningService.xsd)
+- Structure: directories /tel and /ext linked via subtree with the repo api-ePA
+- Structure: content of the directory /phr moved to the repo api-ePA
+- Other: Readme updated
+
+
+# Release 4.0.3-3
+- VZD: new operation delete_Directory_Entry_Certificate
+
+
+# Release 4.0.3-2
+Changes for ePA Release 2.0.4-1
+ - ePA_2.0.4-1: add parameter ProviderEncCertificate to SuspendAccountRequest (AccountManagementService.xsd)
+
+
+# Release 4.0.3-1
+Changes for ePA Release 2.0.4
+ - ePA_2.0.4: clarification for DocumentUniqueId type (now rim:LongName in KeyManagementService.xsd)
+ - ePA_2.0.4: changed cardinality of DocumentCategorElement in DocumentCategoryList (C_10796, PHRManagementService_V2_0.xsd)
+
+
 # Release 4.0.3
 - VPN_ZugD: Reverted ProvisioningService namespace to 1.1 (C_10724)
  - Konnektor (ePA): Removed PHRService 1.4.0. File names adapted to service version 2.0.1 (C_10725)
