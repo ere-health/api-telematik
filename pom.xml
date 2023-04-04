@@ -81,6 +81,7 @@
           <sources>
             <source>conn/ServiceDirectory.xsd</source>
           </sources>
+	  <clearOutputDir>false</clearOutputDir>
         </configuration>
         <dependencies>
           <dependency>
