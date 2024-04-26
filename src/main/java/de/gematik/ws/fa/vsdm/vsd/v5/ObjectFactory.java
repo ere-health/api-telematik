@@ -8,7 +8,7 @@
 
 package de.gematik.ws.fa.vsdm.vsd.v5;
 
-import javax.xml.bind.annotation.XmlRegistry;
+import jakarta.xml.bind.annotation.XmlRegistry;
 
 
 /**

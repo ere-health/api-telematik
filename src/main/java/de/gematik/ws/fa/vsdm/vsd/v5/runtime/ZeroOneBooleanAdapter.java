@@ -25,8 +25,8 @@
 
 package de.gematik.ws.fa.vsdm.vsd.v5.runtime;
 
-import javax.xml.bind.DatatypeConverter;
-import javax.xml.bind.annotation.adapters.XmlAdapter;
+import jakarta.xml.bind.DatatypeConverter;
+import jakarta.xml.bind.annotation.adapters.XmlAdapter;
 
 /**
  * Serializes <tt>boolean</tt> as 0 or 1.

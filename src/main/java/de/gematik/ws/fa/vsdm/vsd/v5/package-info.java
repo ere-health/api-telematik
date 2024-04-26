@@ -5,5 +5,5 @@
 // Generated on: 2021.07.22 at 11:29:34 AM CEST 
 //
 
-@javax.xml.bind.annotation.XmlSchema(namespace = "http://ws.gematik.de/fa/vsdm/vsd/v5.2", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://ws.gematik.de/fa/vsdm/vsd/v5.2", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package de.gematik.ws.fa.vsdm.vsd.v5;
